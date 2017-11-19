@@ -39,7 +39,7 @@ public class RegisterActivity extends Activity implements View.OnClickListener{
 
 	@Override
 	public void onClick(View v) {
-		String url="http://10.10.15.142:8080/web/MyServlet";
+		//String url="http://10.10.15.142:8080/web/MyServlet";
 		String userName = rgusernameET.getText().toString().trim();
 		String password = rgpasswordET.getText().toString().trim();
 		switch(v.getId()){
