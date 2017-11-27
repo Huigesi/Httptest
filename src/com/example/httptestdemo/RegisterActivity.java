@@ -25,14 +25,11 @@ public class RegisterActivity extends Activity implements View.OnClickListener{
 		setContentView(R.layout.register_activity);
 		init();
 	}
-
 	private void init() {
-	
 		register=(Button) findViewById(R.id.rg_register);
 		rgusernameET=(EditText) findViewById(R.id.rg_user_name);
 		rgpasswordET=(EditText) findViewById(R.id.rg_user_psw);
 		emailET=(EditText) findViewById(R.id.rg_user_email);
-	
 		register.setOnClickListener(this);
 		
 	}
